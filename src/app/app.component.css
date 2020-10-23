@@ -1,0 +1,30 @@
+.dropdown-menu.show {
+  max-height: 500px;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.card ul {
+  list-style-type: none;
+  padding-inline-start: 0;
+  margin-bottom: 0;
+}
+
+.cityList {
+  max-height: 500px;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+ul > li {
+  padding: 10px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+ul > li:last-child {
+  border-bottom: none;
+}
+
+agm-map {
+  height: 300px;
+}
